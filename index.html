@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!-- Practice repo initial commit -->
+
+<body>
+
+<header>FITNESS CLUB</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#plans">Plans</a>
+  <a href="#explore">Explore</a>
+  <a href="#contact">Contact</a>
+  <button class="tnc-btn" onclick="openTnC()">Terms</button>
+  <button id="themeToggle" class="theme-btn">🌙 Dark Mode</button>
+</nav>
+
+<section class="hero" id="home">
+  <h1>TRANSFORM YOUR BODY</h1>
+  <p>Join the best fitness community today</p>
+  <button class="btn" onclick="joinNow()">Join Now</button>
+  <p id="join-msg"></p>
+</section>
+
+<section class="section" id="plans">
+<section class="section bg-slideshow" id="explore">
+<section class="section bg-slideshow" id="why-us">
+<section class="section bg-slideshow" id="trainers">
+
+  <h2>Our Membership Plans</h2>
+  <div class="plans">
+    <div class="plan-box"><h3>Basic Plan</h3><p>₹499/month</p><p>Gym Access</p></div>
+    <div class="plan-box"><h3>Standard Plan</h3><p>₹999/month</p><p>Gym + Cardio + Trainer</p></div>
+    <div class="plan-box"><h3>Premium Plan</h3><p>₹1499/month</p><p>All Access + Personal Coach</p></div>
+  </div>
+</section>
+
+<section class="section" id="explore">
+  <h2>Explore More</h2>
+  <div class="explore-boxes">
+    <div class="explore-item"><h3>Workout Programs</h3><p>Full-body, HIIT, Strength Training</p></div>
+    <div class="explore-item"><h3>Diet Plans</h3><p>Weight Loss, Muscle Gain, Keto</p></div>
+    <div class="explore-item"><h3>BMI Calculator</h3><p>Track your body mass index</p></div>
+  </div>
+</section>
+<section class="section bg-slideshow" id="why-us">
+  <h2>Why Choose Us?</h2>
+  <div class="explore-boxes">
+    <div class="explore-item">
+      <h3>Certified Trainers</h3>
+      <p>Work with experienced and certified fitness coaches.</p>
+    </div>
+    <div class="explore-item">
+      <h3>Flexible Timings</h3>
+      <p>Morning and evening batches to suit your schedule.</p>
+    </div>
+    <div class="explore-item">
+      <h3>Affordable Plans</h3>
+      <p>Choose from budget-friendly plans with premium facilities.</p>
+    </div>
+  </div>
+</section>
+<section class="section" id="trainers">
+  <h2>Meet Our Trainers</h2>
+
+  <div class="trainer-boxes">
+
+    <div class="trainer-item">
+      <img src="https://via.placeholder.com/150" alt="Trainer 1">
+      <h3>Rahul Verma</h3>
+      <p>Certified Strength & Conditioning Coach</p>
+    </div>
+
+    <div class="trainer-item">
+      <img src="https://via.placeholder.com/150" alt="Trainer 2">
+      <h3>Neha Singh</h3>
+      <p>Yoga & Flexibility Expert</p>
+    </div>
+
+    <div class="trainer-item">
+      <img src="https://via.placeholder.com/150" alt="Trainer 3">
+      <h3>Arjun Mehta</h3>
+      <p>HIIT & Weight Loss Specialist</p>
+    </div>
+
+  </div>
+</section>
+<div id="tncModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeTnC()">&times;</span>
+    <h2>Fitness Club Terms & Conditions</h2>
+
+    <p><b>Membership Eligibility:</b> Membership is open to individuals above 16 years.</p>
+    <p><b>Fees & Payment:</b> Fees must be paid in advance. Late fees may apply.</p>
+    <p><b>Facility Usage:</b> Members use equipment at their own risk.</p>
+    <p><b>Health & Safety:</b> Consult a doctor before workouts.</p>
+    <p><b>Code of Conduct:</b> Misbehavior may lead to suspension.</p>
+    <p><b>Refunds:</b> 30-day notice required for cancellation.</p>
+    
+  </div>
+</div>
+<p>Stash practice line</p>
+<p>Rebase practice line</p>
+
+<footer id="contact">
+  <p>Contact: <a href="mailto:rohitjatt310@gmail.com">rohitjatt310@gmail.com</a> | Phone: <a href="tel:6207887263">6207887263</a> | Jalandhar (Punjab)</p>
+  
+  <p>
+    Instagram: <a href="https://instagram.com/rohitjatt88" target="_blank">@rohitjatt88</a> |
+    LinkedIn: <a href="https://www.linkedin.com/in/uday-prakash-gautam-96b61529a" target="_blank">Uday Prakash Gautam</a>
+  </p>
+
+  <p style="font-style:italic; color:#ff2b55; font-weight:600;">
+    "The body achieves what the mind believes."
+  </p>
+
+  <p>© 2025 Fitness Club | Fit With Uday</p>
+</footer>
+
+
+<script src="script.js"></script>
+<button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+</body>
+</html>
